@@ -1,2 +1,2 @@
 # dodgingpixels.com
-Public Website
+Public website for dodgingpixels based on [getSkeleton](http://getskeleton.com/).
