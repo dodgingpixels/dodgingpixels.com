@@ -10,18 +10,50 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/mystyle.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+  <link rel="stylesheet" href="css/github-prettify-theme.css">
+  <script src="js/site.js"></script>
   <link rel="icon" type="image/png" href="images/favicon.ico">
 </head>
+
 <body>
-	
-	<section class="section hero">
-		<div class="container">
+
+  <div class="container">
+	  <section class="header">
 			<img class="u-max-full-width" src="images/logo_dp3.png">
 			<br><br><br><br><br><br>
-		</div>
+		</section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#apps">Apps</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#social">Social Links</a></li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="#" data-popover="#moreNavPopover">More</a>
+            <div id="moreNavPopover" class="popover">
+              <ul class="popover-list">
+                <li class="popover-item">
+                  <a class="popover-link" href="mailto:support@dodgingpixels.com">Email</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="https://github.com/dodgingpixels">GitHub</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+	  <div class="navbar-spacer"></div><br>
 	</div>
-  
-    <div class="section categories">
+
+
+
+    <div class="section categories" id="apps">
 		<div class="container">
 			<h1 class="section-heading">Android Apps</h1>
 			<h5>All apps follow Google's Material Design guidelines and take advantage of the latest SDK and API's.</h5>
@@ -45,26 +77,23 @@
 			</div>
 		</div>
 	</div>
-	
-    <div class="section get-help">
+
+    <div class="section get-help" id="social">
 		<div class="container">
 			<div class="row">
-				<div class="three columns value">
-					<a href="mailto:support@dodgingpixels.com" target="_blank"><img class="u-max-full-width" src="images/contact_email.png"></a>
-				</div>
-				<div class="three columns value">
+				<div class="four columns value">
 					<a href="https://www.facebook.com/Dodging-Pixels-LLC-290972417662976/timeline/" target="_blank"><img class="u-max-full-width" src="images/contact_facebook.png"></a>
 				</div>
-				<div class="three columns value">
+				<div class="four columns value">
 					<a href="https://plus.google.com/u/0/b/114422567489032637116/+DodgingPixelsLLC/posts" target="_blank"><img class="u-max-full-width" src="images/contact_google-plus.png"></a>
 				</div>
-				<div class="three columns value">
+				<div class="four columns value">
 					<a href="https://twitter.com/dodgingpixels" target="_blank"><img class="u-max-full-width" src="images/contact_twitter.png"></a>
 				</div>
 			</div>
 		</div>
 	</div>
-  
+
 	<div class="container">
 		<div class="row">
 			<div class="one-half column value">
